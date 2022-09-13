@@ -119,7 +119,7 @@ public class MuertosHeridos implements GlobalVals {
 	/**
 	 * Función para validar el número introducido por el jugador
 	 * @param intro
-	 * @return boolean si cumple las condiciones del juego
+	 * @return boolean si cumple las condiciones del juego 
 	 */
 	public static boolean validarNum (String intro) {
 		// TODO Validar el número introducido por el jugador		
