@@ -5,8 +5,9 @@ package biblioteca;
 
 /**
  * @author DaniDM
- *
+ * clase Libro, extiende la clase publicación y la interfaz prestable
  */
+
 public class Libro extends Publicacion implements Prestable {
 private boolean prestado;
     
