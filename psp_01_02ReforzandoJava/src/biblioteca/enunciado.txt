@@ -1,4 +1,5 @@
-Ejercicio
+EJERCICIO
+
 Escribe un programa para una biblioteca que contenga libros y revistas:
 
 Las características comunes que se almacenan tanto para las revistas como para los libros son el código, el título, y el año de publicación. Estas tres características se pasan por parámetro en el momento de crear los objetos.
