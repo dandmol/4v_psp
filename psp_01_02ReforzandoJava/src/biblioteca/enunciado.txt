@@ -1,4 +1,4 @@
-EJERCICIO
+EJERCICIO Biblioteca
 
 Escribe un programa para una biblioteca que contenga libros y revistas:
 
