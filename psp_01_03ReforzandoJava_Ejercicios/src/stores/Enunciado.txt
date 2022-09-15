@@ -1,0 +1,18 @@
+1. EJERCICIO
+
+Crea un proyecto llamado Stores, e implementa las siguientes clases:
+Una clase abstracta llamada Store. Tendrá un método abastracto llamado welcome, dos campos privados (cash --> double y drinkPrice --> double) y un constructor que recibirá drinkPrice e inicializa el efectivo a 0.0. También implementará un método llamado payDrinks(int numOfDrinks) que añadirá a la variable cash el pago (número de bebidas * precio).
+
+Una clase llamada LiquorStore que extenderá la clase Store. Implementará el método de bienvenida, mostrando el siguiente mensaje:
+"Welcome to our liquor store. If you are younger than 18, go back home!"
+Tendrá un campo privado llamado tax --> int. Su constructor recibirá el precio de la bebida y el valor de los impuestos, llamando al constructor de la clase padre cuando sea necesario. Esta clase anulará payDrinks(int) llamando primero al padre (pagar si impuestos), y luego añadiendo el valor del impuesto al campo de cash.
+
+Implementar getters y setters cuando sea necesario.
+
+Una Clase principal con el método principal. Este método hará lo siguiente:
+- Crear un objeto LiquorStore con drinkPrice=8.95€ e tax=20%. Paga por 10 productos e imprime el dinero en efectivo para ver si su valor es 107,40€ (imprimir 2 números decimales).
+- Instancia una clase Store utilizando una clase anónima. El precio de la bebida es de 8,95€ y el método bienvenida dirá:
+"Welcome to anonymous store!, Our drink price is XX€"
+(donde XX será el valor del atributo drinkPrice con 2 decimales).
+- Llama al método de bienvenida y también pagar por 10 bebidas. Mostrar el efectivo resultante (será 89.50€).
+
