@@ -1,0 +1,15 @@
+2. Ejercicio
+Crea un proyecto llamado KillEnemies. Debes crear lo siguiente en su interior
+- Interface Character. Con un método llamado isEnemy() que devuelve booleano.
+- Clase Friend: Implementa Character. IsEnemy() devuelve false.
+- Clase Enemy: Implementa Character. IsEnemy() devuleve true. También implementa un método llamado kill() que muestra este mensaje "Ahhhhggg, me mataste, bastardo!
+- Clase Main que contiene el método principal. Debes crear un ArrayList de 10.
+
+Characters (5 amigos y 5 enemigos, luego, usando Collections.shuffle(List), aleatorizar el orden de los artículos. Tienes que desplazarte a través de todos los personajes verificando si son enemigos, y si lo son, lo matas (llamando al método kill()).
+
+Un ejemplo de los mensajes de una ejecución sería esto:
+
+El carácter 0 es un amigo! :-)
+El carácter 1 es un amigo! :-)
+¡El personaje 2 es un enemigo! ¡Mátalo!
+¡Ahhhggg, me mataste, bastardo!
