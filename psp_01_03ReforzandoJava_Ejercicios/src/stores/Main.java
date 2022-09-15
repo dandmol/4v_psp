@@ -14,11 +14,8 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String euro = " \u20AC"; //símbolo del euro en unicode
 		LiquorStore puertoDeIndias = new LiquorStore(8.95,20);
-		
-		System.out.println(euro);
-		
+	
 		puertoDeIndias.welcome();
 		puertoDeIndias.payDrinks(10);
 		System.out.printf("The price is %.2f€",puertoDeIndias.getCash());
