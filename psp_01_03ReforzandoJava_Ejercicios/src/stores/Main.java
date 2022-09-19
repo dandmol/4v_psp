@@ -5,7 +5,7 @@ package stores;
 
 /**
  * @author DaniDM
- *
+ * UD1 Ejercicio 1
  */
 public class Main {
 
