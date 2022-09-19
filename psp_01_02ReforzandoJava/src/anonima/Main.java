@@ -21,6 +21,16 @@ public class Main {
 			}
 		};
 		hi.hola();
+		Wellcome ongietorri = new Wellcome() {
+
+			@Override
+			void wellcome() {
+				// TODO Auto-generated method stub
+				System.out.println("Ongietorri");
+			}
+			
+		};
+		ongietorri.wellcome();
 		
 	}
 
