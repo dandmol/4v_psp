@@ -26,7 +26,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		int result = 0;
 		try {
-			int x = 10;
+			int x = 12;
 			int y = 11;
 			if (bigRange(x,y)) {
 				System.out.println("BigRange OK");
