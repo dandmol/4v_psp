@@ -3,6 +3,8 @@
  */
 package customException;
 
+import java.io.IOException;
+
 /**
  * @author dduran
  *
@@ -22,7 +24,7 @@ public class Main {
 	 * @throws NegativeSubtractException 
 	 * @throws BigRange 
 	 */
-	public static void main(String[] args) throws NegativeSubtractException, BigRange {
+	public static void main(String[] args) throws NegativeSubtractException, BigRange, IOException {
 		// TODO Auto-generated method stub
 		int result = 0;
 		try {
