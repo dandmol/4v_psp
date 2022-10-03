@@ -2,7 +2,4 @@ Fichero de prueba
 Leyendo desde un programa de java
 Tercera línea
 Úlitma linea del fichero original
-Nueva
-Nueva linea a ver si coge hasta aquí!
-probaturas varias
-probando en clase
+kkk

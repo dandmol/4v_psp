@@ -9,6 +9,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Properties;
 import java.util.Scanner;
 
 /**
@@ -24,7 +25,8 @@ public class Main {
 	 */
 	public static void main(String[] args) throws IOException   {
 		// TODO Auto-generated method stub
-		String archivo = "D:\\Users\\dduran\\Documents\\GitHub\\psp4v\\psp_02_01_Colecciones\\src\\files\\prueba.txt";
+		//String archivo = "D:\\Users\\dduran\\Documents\\GitHub\\psp4v\\psp_02_01_Colecciones\\src\\files\\prueba.txt";
+		String archivo = ".\\src\\files\\prueba.txt";
 		
 		// Lectura inicial del fichero
 		System.out.println("*** Lectura inicial del fichero ***");
@@ -69,7 +71,7 @@ public class Main {
 		String linea;
 		BufferedReader br = null;
 		FileReader fr = null;
-		
+
 		try {
 			fr = new FileReader(archivo);
 			br = new BufferedReader(fr);
