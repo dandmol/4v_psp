@@ -29,7 +29,8 @@ public class main {
 			fr = new FileReader(archivo);
 			rr = new RegexReader(fr,regexp);
 			
-			while((linea=rr.readLine()) != null) {
+			while(rr.ready()) {
+				linea = rr.readLine();
 				if (linea != "" ) System.out.println(linea);	
 			}
 			
