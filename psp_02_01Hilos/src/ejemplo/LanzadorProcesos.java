@@ -9,7 +9,7 @@ package ejemplo;
  */
 public class LanzadorProcesos {
 
-	public void ejecutar (String ruta) {
+	public void ejecutar(String ruta) {
 		ProcessBuilder pb;
 		try {
 			pb = new ProcessBuilder(ruta);
@@ -18,7 +18,7 @@ public class LanzadorProcesos {
 			e.printStackTrace();
 		}
 	}
-	
+
 	/**
 	 * @param args
 	 */

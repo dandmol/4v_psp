@@ -13,31 +13,34 @@ import java.io.InputStreamReader;
  *
  */
 public class Lanzador {
-	public void lanzarSumador(Integer n1, Integer n2)  {
+	public void lanzarSumador(Integer n1, Integer n2) {
 		// Preparamos lo necesario para lanzar
-		String clase="sumatorio.Sumador";
-		File directorioSumador = new File("D:\\Users\\dduran\\Documents\\eclipse-workspace\\psp_02_01Hilos\\bin\\");
-		
+		String clase = "sumatorio.Sumador";
+		// File directorioSumador = new
+		// File("D:\\Users\\dduran\\Documents\\eclipse-workspace\\psp_02_01Hilos\\bin\\");
+		File directorioSumador = new File(".\\bin\\");
+
 		// Construimos el comando a ejecutar
-		ProcessBuilder pb; 
+		ProcessBuilder pb;
 		try {
-		pb = new ProcessBuilder("java",clase,n1.toString(),n2.toString());
+			pb = new ProcessBuilder("java", clase, n1.toString(), n2.toString());
 			pb.directory(directorioSumador);
 			Process ps = pb.start();
-	
+			System.out.println("PID del proceso: " + ps.pid());
+
 			// Captura de la salida de la ejecución
 			BufferedReader reader = new BufferedReader(new InputStreamReader(ps.getInputStream()));
 			String line;
 			while ((line = reader.readLine()) != null) {
 				System.out.println(line);
 			}
-			
+
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
+
 	}
-	
+
 	/**
 	 * @param args
 	 */
