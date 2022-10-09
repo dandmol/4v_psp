@@ -1,5 +1,0 @@
-Fichero de prueba
-Leyendo desde un programa de java
-Tercera línea
-Úlitma linea del fichero original
-kkk
